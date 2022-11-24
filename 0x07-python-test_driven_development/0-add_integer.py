@@ -4,6 +4,7 @@
     This is to define a function for adding two integers
 """
 
+
 def add_integer(a, b=98):
     """ basically to return a+b as int"""
     if type(a) is not int and type(a) is not float:
@@ -12,3 +13,4 @@ def add_integer(a, b=98):
         raise TypeError('a must be an integer')
     else:
         return int(a) + int(b)
+
