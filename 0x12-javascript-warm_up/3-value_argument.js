@@ -3,10 +3,8 @@
 const process = require('process');
 
 const myVar = process.argv;
-if (myVar[1]) {
+if (myVar[2] === undefined) {
   console.log('No argument');
-}  else if (myVar[2]) {
-     console.log('No argument');
-}  else {
-     console.log(myVar);
+} else {
+    console.log(myVar[2]);
 }
