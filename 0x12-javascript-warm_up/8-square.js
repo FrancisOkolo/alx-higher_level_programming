@@ -5,9 +5,6 @@ if (isNaN(myVar)) {
   console.log('Missing size');
 } else {
   for (let i = 0; i < myVar; i++) {
-    for (let j = 0; j < myVar; j++) {
-      process.stdout.write('X');
-    }
-    console.log('');
+    console.log('X'.repeat(myVar));
   }
-} 
+}
