@@ -3,7 +3,6 @@
 A comprehensive practices on classes
 '''
 
-
 class Rectangle:
 
 
