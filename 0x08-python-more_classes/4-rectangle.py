@@ -46,3 +46,12 @@ class Rectangle:
             return 0
         else:
             return (self.__height * 2) + (self.__width * 2)
+
+    def __str__(self):
+        if self.__width == 0 or self.__height == 0:
+            return ''
+        rect = '\n'.join(['#' * self.__width for i in range(self.__height)])
+        return rect
+
+    def __repr__(self):
+        return "Rectangle({:d}, {:d})".format(self.width, self.height)
