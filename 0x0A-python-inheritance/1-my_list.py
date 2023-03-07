@@ -3,6 +3,7 @@
 A class that inherits from python list
 '''
 
+
 class MyList(list):
     '''A class that inherits from Python List'''
 
