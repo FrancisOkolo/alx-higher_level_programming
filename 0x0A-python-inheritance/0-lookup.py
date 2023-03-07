@@ -7,6 +7,4 @@ A python functions that lists all attributes
 
 def lookup(obj):
     ''' list object attributes'''
-    att = []
-    att.append(dir(obj))
-    return att
+    return dir(obj)
