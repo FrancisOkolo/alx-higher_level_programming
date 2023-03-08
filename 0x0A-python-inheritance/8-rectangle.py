@@ -7,7 +7,7 @@ with instantiation of private attributes width and height, validated by parent
 '''
 
 
-from 7-base_geometry import BaseGeometry
+BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 class Rectangle(BaseGeometry):
     '''A subclass of BaseGeometry'''
